@@ -1,9 +1,10 @@
 # gocourse
 
- - Data types(17.02.2021)
+ - Data types(22.02.2021 18:00)
  - Array, Slice And Map
  - Functions in Go
+ - Interfaces
  - Error Handling, Defer, Panic, and Recover
- - Concurrency Mechanics  
+ - Concurrency Mechanics
  - Concurrency Patterns
  - Profiling
