@@ -1,7 +1,7 @@
 # gocourse
 
 - Data types (22.02.2021 19:00)
-- Array, Slice And Map
+- Array, Slice And Map (03.03.2021)
 - Functions in Go
 - Interfaces
 - Error Handling, Defer, Panic, and Recover
