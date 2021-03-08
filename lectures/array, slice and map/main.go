@@ -36,33 +36,7 @@ func (l *LinkedList) print() {
 }
 
 func (l *LinkedList) deleteVal(val int) {
-	if l.len == 0 {
-		return
-	}
 
-	if l.head.data == val {
-		if l.head.next == nil {
-			l.head = nil
-			l.len--
-			return
-		}
-
-		n := l.head.next
-		l.head = n
-		l.len--
-	}
-
-	length := l.len
-	node := l.head
-
-	for i := 0; i <= l.len; i++ {
-		if node.next != nil && node.next.data == val {
-			node.next = node.next.next
-			length--
-		}
-
-	}
-	l.len = length
 }
 
 func main() {
